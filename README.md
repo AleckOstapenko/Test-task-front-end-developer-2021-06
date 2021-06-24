@@ -1,9 +1,10 @@
-#Тестовое задание на позицию фронтенд разработчика
+# Тестовое задание на позицию фронтенд разработчика
 
-Задание сделано с использованием React. Также использовались react-responsive, react-scroll, react-tooltip.
+## Задание сделано с использованием React. Также использовались react-responsive, react-scroll, react-tooltip.
 CSS препроцессор Sass.
 
-# Getting Started with Create React App
+---------------------------------------------------------------------------------------------------------
+
 ## Available Scripts
 
 In the project directory, you can run:
