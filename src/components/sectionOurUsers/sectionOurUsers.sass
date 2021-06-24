@@ -1,0 +1,112 @@
+@import '../app/app'
+
+%card-text-2
+    text-align: center
+    -webkit-line-clamp: 2 //* Число отображаемых строк */
+    display: -webkit-box //* Включаем флексбоксы */
+    -webkit-box-orient: vertical //* Вертикальная ориентация */
+    overflow: hidden
+
+%card-text-1
+    text-align: center
+    white-space: nowrap //* Текст не переносится */
+    overflow: hidden //* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis //* Добавляем многоточие */
+
+/*Classes*/    
+
+.users-section
+    background: $background-color
+    
+.users
+    max-width: $max-widht
+    width: 100%
+    margin-top: 175px
+    margin-left: auto
+    margin-right: auto
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (max-resolution: 192dpi) and (max-width: 767px), (max-width: 767px)
+        margin-top: 0px
+    .button-users
+        display: block
+        margin-left: auto
+        margin-right: auto
+        margin-top: 51px
+        @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023px), (max-resolution: 192dpi) and (max-width: 1023px), (max-width: 1023px)
+            margin-top: 49px
+        @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (max-resolution: 192dpi) and (max-width: 767px), (max-width: 767px)
+            margin-top: 52px    
+    
+.users-h1
+    text-align: center
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (max-resolution: 192dpi) and (max-width: 767px), (max-width: 767px)
+        margin-left: 16px
+        margin-right: 16px    
+.users-h2
+    text-align: center
+    margin-bottom: 32px
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (max-resolution: 192dpi) and (max-width: 767px), (max-width: 767px)
+        margin-left: 16px
+        margin-right: 16px 
+.users-cards
+    max-width: $max-widht
+    padding-left: 60px
+    padding-right: 60px
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023px), (max-resolution: 192dpi) and (max-width: 1023px), (max-width: 1023px)
+        padding-left: 32px
+        padding-right: 32px
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (max-resolution: 192dpi) and (max-width: 767px), (max-width: 767px)
+        padding-left: 16px
+        padding-right: 16px
+    display: grid
+    grid-template-columns: repeat(3, 31%)    
+    grid-column-gap: 31px
+    grid-row-gap: 30px
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023px), (max-resolution: 192dpi) and (max-width: 1023px), (max-width: 1023px)
+        grid-template-columns: repeat(2, 49%)    
+        grid-column-gap: 15px
+        grid-row-gap: 18px
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (max-resolution: 192dpi) and (max-width: 767px), (max-width: 767px)
+        grid-template-columns: 100%    
+        grid-row-gap: 25px
+
+.card
+    padding: 36px 30px
+    background: #FFFFFF
+    height: 240px
+    border-radius: 16px
+
+.card-photo
+    width: 70px
+    height: 70px
+    border-radius: 50%
+    display: block
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 20px
+
+.card-name
+    margin-bottom: 18px
+    margin-top: 0
+    @extend %card-text-2
+
+.card-position
+    @extend %card-text-2 
+
+.card-email
+    @extend %card-text-1
+
+.card-tel
+    @extend %card-text-1     
+
+.tooltips
+    font-family: Nunito !important
+    font-style: normal !important
+    font-weight: normal !important
+    font-size: 16px !important
+    line-height: 26px !important
+    color: #fff !important
+    background: #232F34 !important
+    padding: 0px 10px !important
+    &.place-bottom 
+        &:after 
+        border: none               

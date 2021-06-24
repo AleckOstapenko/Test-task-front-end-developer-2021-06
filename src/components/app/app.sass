@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap')
+
+$primary-color: #F4E041
+$secondary-color: #00BDD3
+$background-color: #F8F8F8
+$text-color: rgba(0, 0, 0, 0.87)
+
+$max-widht: 1170px
+     
+/*Tags*/ 
+
+*
+    margin: 0
+    padding: 0
+
+body
+    background: $background-color
+    font-family: Asap
+    font-style: normal
+    font-weight: normal
+    font-size: 16px 
+    line-height: 26px
+    color: $text-color
+    
+h1    
+    font-family: Nunito
+    font-style: normal
+    font-weight: normal
+    font-size: 40px
+    line-height: 40px
+
+h2    
+    font-family: Nunito
+    font-style: normal
+    font-weight: normal
+    font-size: 22px
+    line-height: 28px
+    margin-top: 10px
+  
+/*Classes*/
+
+.button
+    background: $primary-color
+    width: 148px
+    height: 50px
+    border-radius: 80px
+    margin-top: 25px
+    border: none    
+    font-family: Asap
+    font-size: 18px
+    line-height: 25px
+    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023px), (max-resolution: 192dpi) and (max-width: 1023px), (max-width: 1023px)
+        margin-top: 32px
+    &:hover
+        background: #FFE302
+    &:active
+        background-image: radial-gradient(circle, rgba(126, 126, 126, 0.5) 50%, rgba(126, 126, 126, 0))
+        transition: all 0.2s ease 
+
+.button-disable
+    background: #B4B4B4
+    color: #FFF
+    &:hover
+      background: #B4B4B4
+   
+.darker-span 
+    filter: brightness(50%)
+    z-index: -1
+
+.shadow
+    background-color: rgba(0,0 ,0 ,0.5 )
