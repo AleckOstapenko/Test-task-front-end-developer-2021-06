@@ -83,7 +83,11 @@ nav
     .logo-img
         width: 104px
         height: 26px 
-        margin: 17px 0 34px 16px        
+        margin: 17px 0 34px 16px 
+        @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023px), (max-resolution: 192dpi) and (max-width: 1023px), (max-width: 1023px)
+            margin-left: 32px
+        @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (max-resolution: 192dpi) and (max-width: 767px), (max-width: 767px)
+            margin-left: 17px       
     li
         margin-left: 10px
         margin-right: 8px
