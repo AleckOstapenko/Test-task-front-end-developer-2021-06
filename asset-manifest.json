@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Test-task-front-end-developer-2021-06/static/css/main.61903889.chunk.css",
+    "main.css": "/Test-task-front-end-developer-2021-06/static/css/main.8b1206bd.chunk.css",
     "main.js": "/Test-task-front-end-developer-2021-06/static/js/main.221cc32c.chunk.js",
     "main.js.map": "/Test-task-front-end-developer-2021-06/static/js/main.221cc32c.chunk.js.map",
     "runtime-main.js": "/Test-task-front-end-developer-2021-06/static/js/runtime-main.d205f587.js",
@@ -10,7 +10,7 @@
     "static/js/3.6425ae07.chunk.js": "/Test-task-front-end-developer-2021-06/static/js/3.6425ae07.chunk.js",
     "static/js/3.6425ae07.chunk.js.map": "/Test-task-front-end-developer-2021-06/static/js/3.6425ae07.chunk.js.map",
     "index.html": "/Test-task-front-end-developer-2021-06/index.html",
-    "static/css/main.61903889.chunk.css.map": "/Test-task-front-end-developer-2021-06/static/css/main.61903889.chunk.css.map",
+    "static/css/main.8b1206bd.chunk.css.map": "/Test-task-front-end-developer-2021-06/static/css/main.8b1206bd.chunk.css.map",
     "static/js/2.0cff434a.chunk.js.LICENSE.txt": "/Test-task-front-end-developer-2021-06/static/js/2.0cff434a.chunk.js.LICENSE.txt",
     "static/media/header.sass": "/Test-task-front-end-developer-2021-06/static/media/Banner_photo.0c88e5e4.jpg",
     "static/media/Footprint-328x124.2fec35bd.svg": "/Test-task-front-end-developer-2021-06/static/media/Footprint-328x124.2fec35bd.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.d205f587.js",
     "static/js/2.0cff434a.chunk.js",
-    "static/css/main.61903889.chunk.css",
+    "static/css/main.8b1206bd.chunk.css",
     "static/js/main.221cc32c.chunk.js"
   ]
 }
