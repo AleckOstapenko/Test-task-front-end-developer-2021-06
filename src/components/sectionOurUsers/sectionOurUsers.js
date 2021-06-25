@@ -58,12 +58,12 @@ export default class SectionOurUsers extends Component {
             this.cardsNumber=3;
         } else if (width < 1023) {
             this.cardsNumber=6;
-        }              
+        }    
+        this.updateUsers(this.state.page,this.cardsNumber);          
     }
 
     componentDidMount() {
-        this.changeCardsNumber();    
-        this.updateUsers(this.state.page,this.cardsNumber);
+        this.changeCardsNumber();        
         window.addEventListener('resize', this.changeCardsNumber);
     }
     
