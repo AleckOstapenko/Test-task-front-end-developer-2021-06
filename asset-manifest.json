@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Test-task-front-end-developer-2021-06/static/css/main.f530d4bd.chunk.css",
-    "main.js": "/Test-task-front-end-developer-2021-06/static/js/main.221cc32c.chunk.js",
-    "main.js.map": "/Test-task-front-end-developer-2021-06/static/js/main.221cc32c.chunk.js.map",
-    "runtime-main.js": "/Test-task-front-end-developer-2021-06/static/js/runtime-main.d205f587.js",
-    "runtime-main.js.map": "/Test-task-front-end-developer-2021-06/static/js/runtime-main.d205f587.js.map",
-    "static/js/2.0cff434a.chunk.js": "/Test-task-front-end-developer-2021-06/static/js/2.0cff434a.chunk.js",
-    "static/js/2.0cff434a.chunk.js.map": "/Test-task-front-end-developer-2021-06/static/js/2.0cff434a.chunk.js.map",
-    "static/js/3.6425ae07.chunk.js": "/Test-task-front-end-developer-2021-06/static/js/3.6425ae07.chunk.js",
-    "static/js/3.6425ae07.chunk.js.map": "/Test-task-front-end-developer-2021-06/static/js/3.6425ae07.chunk.js.map",
+    "main.css": "/Test-task-front-end-developer-2021-06/static/css/main.af6a1b81.chunk.css",
+    "main.js": "/Test-task-front-end-developer-2021-06/static/js/main.e30cdbb7.chunk.js",
+    "main.js.map": "/Test-task-front-end-developer-2021-06/static/js/main.e30cdbb7.chunk.js.map",
+    "runtime-main.js": "/Test-task-front-end-developer-2021-06/static/js/runtime-main.a14dc255.js",
+    "runtime-main.js.map": "/Test-task-front-end-developer-2021-06/static/js/runtime-main.a14dc255.js.map",
+    "static/js/2.d0ed2146.chunk.js": "/Test-task-front-end-developer-2021-06/static/js/2.d0ed2146.chunk.js",
+    "static/js/2.d0ed2146.chunk.js.map": "/Test-task-front-end-developer-2021-06/static/js/2.d0ed2146.chunk.js.map",
+    "static/js/3.95807806.chunk.js": "/Test-task-front-end-developer-2021-06/static/js/3.95807806.chunk.js",
+    "static/js/3.95807806.chunk.js.map": "/Test-task-front-end-developer-2021-06/static/js/3.95807806.chunk.js.map",
     "index.html": "/Test-task-front-end-developer-2021-06/index.html",
-    "static/css/main.f530d4bd.chunk.css.map": "/Test-task-front-end-developer-2021-06/static/css/main.f530d4bd.chunk.css.map",
-    "static/js/2.0cff434a.chunk.js.LICENSE.txt": "/Test-task-front-end-developer-2021-06/static/js/2.0cff434a.chunk.js.LICENSE.txt",
+    "static/css/main.af6a1b81.chunk.css.map": "/Test-task-front-end-developer-2021-06/static/css/main.af6a1b81.chunk.css.map",
+    "static/js/2.d0ed2146.chunk.js.LICENSE.txt": "/Test-task-front-end-developer-2021-06/static/js/2.d0ed2146.chunk.js.LICENSE.txt",
     "static/media/header.sass": "/Test-task-front-end-developer-2021-06/static/media/Banner_photo.06be0592.jpg",
     "static/media/Footprint-328x124.2fec35bd.svg": "/Test-task-front-end-developer-2021-06/static/media/Footprint-328x124.2fec35bd.svg",
     "static/media/Footprint-467x177.d1467fef.svg": "/Test-task-front-end-developer-2021-06/static/media/Footprint-467x177.d1467fef.svg",
@@ -21,9 +21,9 @@
     "static/media/Menu.840def8c.svg": "/Test-task-front-end-developer-2021-06/static/media/Menu.840def8c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d205f587.js",
-    "static/js/2.0cff434a.chunk.js",
-    "static/css/main.f530d4bd.chunk.css",
-    "static/js/main.221cc32c.chunk.js"
+    "static/js/runtime-main.a14dc255.js",
+    "static/js/2.d0ed2146.chunk.js",
+    "static/css/main.af6a1b81.chunk.css",
+    "static/js/main.e30cdbb7.chunk.js"
   ]
 }
